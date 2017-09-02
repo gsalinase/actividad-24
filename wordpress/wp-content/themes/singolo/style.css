@@ -1,0 +1,17 @@
+/*
+Theme Name: Singolo Theme
+Theme URI: 
+Author: Gonzalo Salinas
+Author URI: https://github.com/gsalinase
+Description: Plantilla hecha para la actividad presencial 24 de Desafío Latam.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+html body {
+	margin-top: -35px;
+}
