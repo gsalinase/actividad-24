@@ -1,6 +1,8 @@
+console.log("estoy funcionando");
+
 $(document).ready(function(){
 
-	// Initialize prettyPhoto plugin
+	// Initialize prettyPhoto portfoliougin
 	$(".portfolio a[rel^='prettyPhoto']").prettyPhoto({
 		theme:'facebook', 
 		autoplay_slideshow: false, 

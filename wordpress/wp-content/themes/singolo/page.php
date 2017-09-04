@@ -5,9 +5,10 @@
 	<div id="slider" class="theme-default">
         <div class="inner">
 			
-        	<div class="nivo-slider nivoSlider">
+        	<!--<div class="nivo-slider nivoSlider">-->
+            <div class="">
                 <a href=""><img src="<?php the_field('slide_1'); ?>" alt="#" /></a>
-                <img src="<?php the_field('slide_2'); ?>" alt="#" />
+                <!--<img src="<?php the_field('slide_2'); ?>" alt="#" />-->
             </div>
                 
         </div><!-- .inner -->
@@ -19,49 +20,50 @@
 	<div id="services">
         <div class="inner">
         
-        	<h2>Our Services</h2>
-            <h3>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</h3>
+        	<h2><?php the_field('titulo'); ?></h2>
+            <h3><?php the_field('descripcion'); ?></h3>
             
             <ul>
             	<li>
-                	<span class="li_pen"></span>
-                    <h4>Custom Design</h4>
-                    <p>Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
+                
+                	<span class=""><i class="fa <?php the_field('icono_1'); ?>" aria-hidden="true"></i></span>
+                    <h4><?php the_field('servicio_1'); ?></h4>
+                    <p><?php the_field('descripcion_servicio_1'); ?></p>
                 </li>
                 
                 
                 <li>
-                	<span class="li_bulb"></span>
-                    <h4>Inovative Ideas</h4>
-                    <p>Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
+                	<span class="fa <?php the_field('icono_2'); ?>"></span>
+                    <h4><?php the_field('servicio_2'); ?></h4>
+                    <p><?php the_field('descripcion_servicio_2'); ?></p>
                 </li>
                 
                 
                 <li>
-                	<span class="li_heart"></span>
-                    <h4>Love Is The Answer</h4>
-                    <p>Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
+                	<span class="fa <?php the_field('icono_3'); ?>"></span>
+                    <h4><?php the_field('servicio_3'); ?></h4>
+                    <p><?php the_field('descripcion_servicio_3'); ?></p>
                 </li>
                 
                 
                 <li>
-                	<span class="li_phone"></span>
-                    <h4>Responsive Layout</h4>
-                    <p>Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Praesent elit leo.</p>
+                	<span class="fa <?php the_field('icono_4'); ?>"></span>
+                    <h4><?php the_field('servicio_4'); ?></h4>
+                    <p><?php the_field('descripcion_servicio_4'); ?></p>
                 </li>
                 
                 
                 <li>
-                	<span class="li_bubble"></span>
-                    <h4>24 / 7 Support</h4>
-                    <p>Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellentesque egestas venenatis lorem .</p>
+                	<span class="fa <?php the_field('icono_5'); ?>"></span>
+                    <h4><?php the_field('servicio_5'); ?></h4>
+                    <p><?php the_field('descripcion_servicio_5'); ?></p>
                 </li>
                 
                 
                 <li>
-                	<span class="li_star"></span>
-                    <h4>Feel Like A Star</h4>
-                    <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.</p>
+                	<span class="fa <?php the_field('icono_6'); ?>"></span>
+                    <h4><?php the_field('servicio_6'); ?></h4>
+                    <p><?php the_field('descripcion_servicio_6'); ?></p>
                 </li>
             </ul>
             
@@ -195,10 +197,10 @@
 						" />
                     <h4><?php the_field('nombre_persona'); ?></h4>
                     <p><?php the_field('acerca_del_miembro_1'); ?></p>
-                    <a href=""><span class="icon-facebook"></span></a>
-                    <a href=""><span class="icon-gplus"></span></a>
-                    <a href=""><span class="icon-twitter"></span></a>
-                    <a href=""><span class="icon-linkedin"></span></a>
+                     <a href=""><span class="fa <?php the_field('red_social_1'); ?>"></span></a>
+                    <a href=""><span class="fa <?php the_field('red_social_2'); ?>"></span></a>
+                    <a href=""><span class="fa <?php the_field('red_social_3'); ?>"></span></a>
+                    <a href=""><span class="fa <?php the_field('red_social_4'); ?>"></span></a>
                 </li>
                 
             	<li>
@@ -206,10 +208,10 @@
 						" />
                     <h4><?php the_field('nombre_miembro_2'); ?></h4>
                      <p><?php the_field('acerca_de_la_persona_2'); ?></p>
-                    <a href=""><span class="icon-facebook"></span></a>
-                    <a href=""><span class="icon-gplus"></span></a>
-                    <a href=""><span class="icon-twitter"></span></a>
-                    <a href=""><span class="icon-linkedin"></span></a>
+                     <a href=""><span class="fa <?php the_field('red_social_1'); ?>"></span></a>
+                    <a href=""><span class="fa <?php the_field('red_social_2'); ?>"></span></a>
+                    <a href=""><span class="fa <?php the_field('red_social_3'); ?>"></span></a>
+                    <a href=""><span class="fa <?php the_field('red_social_4'); ?>"></span></a>
                 </li>
                 
             	<li>
@@ -217,10 +219,11 @@
 						" />
                     <h4><?php the_field('nombre_miembro_3'); ?></h4>
                     <p><?php the_field('acerca_del_miembro_3'); ?></p>
-                    <a href=""><span class="icon-facebook"></span></a>
-                    <a href=""><span class="icon-gplus"></span></a>
-                    <a href=""><span class="icon-twitter"></span></a>
-                    <a href=""><span class="icon-linkedin"></span></a>
+                    <a href=""><span class="fa <?php the_field('red_social_1'); ?>"></span></a>
+                    <a href=""><span class="fa <?php the_field('red_social_2'); ?>"></span></a>
+                    <a href=""><span class="fa <?php the_field('red_social_3'); ?>"></span></a>
+                    <a href=""><span class="fa <?php the_field('red_social_4'); ?>"></span></a>
+                </li>
                 </li>
                 
             </ul><!-- .portfolio-menu -->
@@ -243,18 +246,11 @@
             
             <ul>
             	<li>
-                	<form action="" method="get">
+                	<form>
                     	
-                        <input name="Name" class="" type="text" value="Name (Required)" onfocus="if(this.value == 'Name (Required)') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Name (Required)'; }" />
-                        
-                        <input name="Email" class="" type="text" value="Email (Required)" onfocus="if(this.value == 'Email (Required)') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Email (Required)'; }" />
-                        
-                        <input name="Subject" class="" type="text" value="Subject" onfocus="if(this.value == 'Subject') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Subject'; }" />
-                        
-                        <textarea name="Detail" cols="" rows="" onfocus="if(this.value == 'Describe your project in detail...') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Describe your project in detail...'; }">Describe your project in detail...</textarea>
-                        
-                        <input type="submit" value="submit" name="subscribe" class="submitbtn" />
-                        
+                        <?php
+                            echo do_shortcode('[contact-form-7 id="71" title="Contact form"] ');
+                        ?>
                     </form>
                 </li>
                 
@@ -262,9 +258,9 @@
                 	<h4>Contact Information</h4>
                     <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis.</p>
                     
-                    <span><i class="li_location"></i>Elm St. 14/05 Lost City </span>
-                    <span><i class="icon-phone"></i>03528 331 86 35 </span>
-                    <span><i class="icon-mail"></i>info@singolo.com</span>
+                    <span><i class="fa fa-map-marker "></i>Elm St. 14/05 Lost City </span>
+                    <span><i class="fa fa-phone"></i>03528 331 86 35 </span>
+                    <span><i class="fa fa-envelope"></i>info@singolo.com</span>
                 </li>
             </ul>
             
@@ -273,6 +269,4 @@
 	</div><!-- #contact -->
 	<!-- End Contact -->
     
-    
-
 <?php get_footer(); ?>

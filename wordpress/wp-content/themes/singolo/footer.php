@@ -2,15 +2,13 @@
 			============================= -->
 		<div id="footer">
 	        <div class="inner">
-	        
-	        	<p class="left">© Copyright 2013 by <a href="">PSDchat</a></p>
-	            
+	        <p class="left"><?php echo "© Copyright "; echo date("Y"); echo " "; echo "by PSDchat" ; ?></p>
 	            <ul>
 	            	<li>
-	                    <a href=""><span class="icon-facebook"></span></a>
-	                    <a href=""><span class="icon-gplus"></span></a>
-	                    <a href=""><span class="icon-twitter"></span></a>
-	                    <a href=""><span class="icon-linkedin"></span></a>
+	                    <a href=""><span class="fa <?php the_field('red_social_1'); ?>"></span></a>
+	                    <a href=""><span class="fa <?php the_field('red_social_2'); ?>"></span></a>
+	                    <a href=""><span class="fa <?php the_field('red_social_3'); ?>"></span></a>
+	                    <a href=""><span class="fa <?php the_field('red_social_4'); ?>"></span></a>
 	                </li>
 	            </ul>
 	            

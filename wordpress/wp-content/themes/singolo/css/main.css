@@ -1,3 +1,4 @@
+
 @charset "utf-8";
 /* CSS Document */
 
@@ -12,34 +13,7 @@ html, html a {
     -webkit-font-smoothing: antialiased;
 	}
 
-/*Font Face Fontello*/
-@font-face {
-  font-family: 'fontello';
-  src: url('/fonts/fontello/fontello.eot?11696308');
-  src: url('/fonts/fontello/fontello.eot?11696308#iefix') format('embedded-opentype'),
-       url('/fonts/fontello/fontello.woff') format('woff'),
-       url('/fonts/fontello/fontello.ttf') format('truetype'),
-       url('/fonts/fontello/fontello.svg?11696308#fontello') format('svg');
-  	font-weight: normal;
-  	font-style: normal;
-	font-variant: normal;
-	speak: none;
-	}
 
-/*Font Face Linecons*/
-@font-face {
-	font-family: 'linecons';
-	src:url('fonts/linecons/linecons.eot');
-	src:url('fonts/linecons/linecons.eot?#iefix') format('embedded-opentype'),
-		url('fonts/linecons/linecons.ttf') format('truetype'),
-		url('fonts/linecons/linecons.woff') format('woff'),
-		url('fonts/linecons/linecons.svg#linecons') format('svg');
-	font-weight: normal;
-	font-style: normal;
-	font-variant: normal;
-	speak: none;
-	}
-	
 img {
 	border: none;
 	}
@@ -156,16 +130,6 @@ ul.nav-menu li {
 	text-transform: uppercase;
 	}
 
-ul.nav-menu li:before {
-  font-family: 'fontello';
-	content: "\e804";
-	}
-	
-ul.nav-menu li:first-child:before {
-	content: "\e804";
-	color: #2d303a;
-	}
-
 ul.nav-menu li:first-child a {
 	margin-left: 0px;
 	}
@@ -235,7 +199,7 @@ ul.nav-menu li a:hover {
 	line-height: 56px;
 	text-align: center;
 	font-size: 35px;
-	font-family: 'linecons';
+	font-family: 'FontAwesome';
 	color: #666d89;
 	background: transparent;
 	-moz-border-radius: 50%;
@@ -253,30 +217,6 @@ ul.nav-menu li a:hover {
 	-moz-transition-duration: 0.5s;
 	-webkit-transition-duration: 0.5s;
 	transition-duration: 0.5s;
-	}
-
-.li_heart:before {
-	content: "\e000";
-	}
-
-.li_star:before {
-	content: "\e002";
-	}
-
-.li_bulb:before {
-	content: "\e00e";
-	}
-
-.li_pen:before {
-	content: "\e00f";
-	}
-
-.li_bubble:before {
-	content: "\e014";
-	}
-
-.li_phone:before {
-	content: "\e017";
 	}
 
 #services ul li h4 {
@@ -418,7 +358,7 @@ ul.nav-menu li a:hover {
 	}
 	
 #about ul li span {
-	font-family: "fontello";
+	font-family: "FontAwesome";
 	float: left;
 	display: inline-block;
 	width: 30px;
@@ -445,12 +385,6 @@ ul.nav-menu li a:hover {
 	-webkit-transition-duration: 0.5s;
 	transition-duration: 0.5s;
 	}
-
-.icon-twitter:before { content: '\e802'; }
-.icon-facebook:before { content: '\e800'; }
-.icon-gplus:before { content: '\e801'; }
-.icon-linkedin:before { content: '\e803'; }	
-
 
 /*===================================
 ============= Contact ===============
@@ -568,22 +502,13 @@ textarea {
 	}
 
 #contact span i {
-	font-family: 'fontello';
+	font-family: 'FontAwesome';
 	margin: 0 10px 0 0;
 	font-weight: normal;
 	font-style: normal;
 	vertical-align: middle;
 	}
-	
-#contact span i.li_location {
-	font-family: 'linecons';
-	}
-
-.li_location:before { content: '\e012'; }
-.icon-mail:before { content: '\e806'; }
-.icon-phone:before { content: '\e805'; }
-	
-	
+		
 /*===================================
 ============= Footer ================
 ===================================*/
@@ -619,7 +544,7 @@ textarea {
 	}	
 	
 #footer ul li span {
-	font-family: "fontello";
+	font-family: "FontAwesome";
 	float: left;
 	display: inline-block;
 	width: 30px;
